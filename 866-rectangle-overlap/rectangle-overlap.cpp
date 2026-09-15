@@ -7,6 +7,6 @@ public:
         int bottom = max(rec1[1], rec2[1]);
         int top = min(rec1[3], rec2[3]);
 
-        return right > left && top > bottom;
+        return right > left && top > bottom ;
     }
 };
