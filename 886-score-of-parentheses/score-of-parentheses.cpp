@@ -12,10 +12,11 @@ public:
                 int score;
 
                 if(inside == 0)
-                    score = 1;
+                score = 1;
                 else
-                    score = 2*inside;
-                    st.top() += score;
+                score = 2*inside;
+
+                st.top() += score;
             }
         }
         return st.top();
